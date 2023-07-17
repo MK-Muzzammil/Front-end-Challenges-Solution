@@ -1,0 +1,61 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+  /* font-family: 'Outfit', sans-serif; */
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mainBodyContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color:hsl(212, 45%, 89%);
+  width:100vw;
+  height: 100vh;
+
+}
+.QRcodecontainer{
+  display: flex;
+  flex-direction: column;
+  background-color:  hsl(0, 0%, 100%);
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem;
+  border-radius: 0.9rem;
+  gap: 1rem;
+  width: 280px;
+}
+
+.paragraph{
+  font-size: 15px;
+  font-family: 'Outfit', sans-serif;
+
+}
+.contentContainer{
+  text-align: center;
+}
+#highWeightPara{
+  font-weight: 700;
+  margin-bottom:1rem;
+  color: darkblue;
+  max-width: 300px;
+
+}
+#lowWeightPara{
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  max-width: 280px;
+  
+}
+
+.qrImage img{
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 0.9rem;
+}
+
